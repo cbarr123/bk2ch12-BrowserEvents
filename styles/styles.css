@@ -1,0 +1,43 @@
+
+.blue {
+    color: blue;
+  }
+  
+  .large {
+    font-size: 2em;
+  }
+  
+  .bordered {
+    border: 2px dotted purple;
+  }
+  
+  .rounded {
+    border-radius: 10px;
+  }
+  
+  .hide {
+    display: none;
+  }
+  
+  #guinea-pig {
+    margin: 50px 0 20px 0;
+    font-family: Helvetica;
+    padding: 5px;
+  }
+  
+  .card {
+    border: 1px dashed darkgoldenrod;
+    padding: 5px;
+    margin: 5px;
+  }
+  .articleContainer {
+      display: flex;
+      flex-wrap: wrap;
+      border: 1px solid black
+  }
+  .art1 {
+      border: 1px solid blue;
+  }
+  .art2 {
+      border: 1px solid goldenrod;
+  }
