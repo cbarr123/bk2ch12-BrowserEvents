@@ -30,14 +30,17 @@
     padding: 5px;
     margin: 5px;
   }
-  .articleContainer {
+  #articleContainer {
       display: flex;
       flex-wrap: wrap;
-      border: 1px solid black
   }
-  .art1 {
+  #art1 {
       border: 1px solid blue;
+      padding: 10px;
+      flex-basis: 45%
   }
-  .art2 {
+  #art2 {
       border: 1px solid goldenrod;
+      padding: 10px;
+      flex-basis: 45%
   }

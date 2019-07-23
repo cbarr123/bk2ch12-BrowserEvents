@@ -57,6 +57,15 @@ fieldEl.addEventListener("keyup", function (event) {
     outputEl.innerHTML = event.target.value
 })
 
+// todo Carl Added for the exercise
+// let dualOutputEl = document.getElementById("art1")
+let dualFieldElements = document.getElementById("message")
+
+dualFieldElements.addEventListener("keyup", function (event){
+    art1.innerHTML = event.target.value
+    art2.innerHTML = event.target.value
+})
+
 
 /*
   Now we can start making a truly interactive experience
